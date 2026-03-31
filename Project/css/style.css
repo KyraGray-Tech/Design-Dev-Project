@@ -474,20 +474,30 @@ input[type="submit"]:hover {
 }
 
 
-
-/* Search  
-.search {
-	text-align: center;
-	padding-bottom: 4rem;
+/* References */  
+.reference {
+	margin-bottom: 6rem;
 }
 
-.search h2 {
-	padding-top: 6rem;
+.reference h2 {
+	font-size: 2rem;
 }
 
-.search h2, .search p {
-	padding-bottom: 1rem;
-}*/
+.reference hr {
+	border: 1px solid var(--primary-color);
+	margin-top: 3rem;
+	margin-bottom: 1rem;
+}
+
+.reference a {
+	color: var(--primary-color);
+}
+
+.reference a:hover {
+	color: #000;
+	transition: ease-in-out 0.2s;
+}
+
 
 
 /* footer */

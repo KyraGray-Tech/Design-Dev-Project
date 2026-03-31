@@ -106,32 +106,6 @@
 }
 
 
-/* References */  
-.reference {
-	margin-bottom: 6rem;
-}
-
-.reference h2 {
-	font-size: 2rem;
-}
-
-.reference hr {
-	border: 1px solid var(--primary-color);
-	margin-top: 3rem;
-	margin-bottom: 1rem;
-}
-
-.reference a {
-	color: var(--primary-color);
-}
-
-.reference a:hover {
-	color: #000;
-	transition: ease-in-out 0.2s;
-}
-
-
-
 
 /*  Media Queries */
 

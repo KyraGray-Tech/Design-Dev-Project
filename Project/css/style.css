@@ -17,12 +17,13 @@ body {
 	font-size: 1.1rem;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, .subhead {
 	line-height: 1.3;
 	font-family: "nunito", sans-serif;
 	font-weight: 400;
 	font-style: normal;
 }
+
 
 p, a, input {
 	font-family: "roboto", sans-serif;
@@ -53,7 +54,7 @@ img {
 }
 
 .container {
-	max-width: 90%;
+	max-width: 80%;
 	margin: auto;
 	overflow: hidden;
 	padding: 0 2rem;
@@ -282,6 +283,8 @@ img {
 .form-group-service-left p, .form-group-service-right p {
 	margin-bottom: 0px;
 	color: #fcb238;
+	font-family: "nunito", sans-serif !important;
+	font-weight: bold !important;
 }
 
 .form-group {
@@ -314,7 +317,6 @@ input[type="checkbox"] {
 	border-radius: 10px;
 
 }
-
 
 .submit-btn {
 	background-color: #fcb238;

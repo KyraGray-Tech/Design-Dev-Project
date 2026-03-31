@@ -59,7 +59,7 @@
 	color: #fff;
 	font-size: 1rem;
 	border-radius: 10px;
-	padding: 15px 50px;
+	padding: 10px 50px;
 }
 
 #search button:hover {
@@ -136,6 +136,10 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+	#showcase-natural {
+		background-attachment: scroll;
+	}
+
 	.search-bg {
 		border-bottom: 5px solid #fcb238;
 	}

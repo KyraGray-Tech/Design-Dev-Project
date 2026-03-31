@@ -8,6 +8,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	overflow-x: hidden !important;
 }
 
 body {
@@ -60,6 +61,7 @@ img {
 	padding: 0 2rem;
 }
 
+
 .btn {
 	background-color: #fcb238;
 	color: #fff;
@@ -67,6 +69,13 @@ img {
 	font-size: 1rem;
 	border-radius: 10px;
 	padding: 15px 50px;
+}
+
+.btn:hover {
+	background-color: var(--secondary-color);
+	transition: ease-in-out 0.2s;
+	color: #000;
+	cursor: pointer;
 }
 
 .btn-blue {
@@ -99,14 +108,6 @@ img {
 	color: #000;
 	cursor: pointer;
 	transition: ease-in-out 0.2s;
-}
-
-
-.btn:hover {
-	background-color: var(--secondary-color);
-	transition: ease-in-out 0.2s;
-	color: #000;
-	cursor: pointer;
 }
 
 
@@ -563,6 +564,17 @@ footer li {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+	.btn-width {
+		display: flex;
+		width: 100%;
+		gap: 10px;
+	}
+
+	.btn-width button {
+		flex: 1;
+		padding: 15px 15px;
+	}
+
 	button {
 		margin-bottom: 10px !important;
 	}

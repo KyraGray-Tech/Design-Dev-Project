@@ -574,6 +574,10 @@ footer li {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+	.container {
+		max-width: 90%;
+	}
+
 	button {
 		margin-bottom: 10px !important;
 	}
